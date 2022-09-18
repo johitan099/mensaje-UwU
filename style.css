@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-color: rgb(243, 194, 88);
+  /* animation: darking 2s 2s forwards; */
+}
+
+@keyframes darking {
+  100% {
+    background-color: black;
+  }
+}
+
+p {
+  width: min(100% - 2em, 600px);
+  font-size: 2.5em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+span {
+  color: black;
+}
