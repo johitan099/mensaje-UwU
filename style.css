@@ -11,7 +11,7 @@ body {
   width: 100vw;
 
   background-color: rgb(243, 194, 88);
-  animation: darking 9s 4s forwards;
+  animation: darking 6s 3s forwards;
 }
 
 @keyframes darking {
